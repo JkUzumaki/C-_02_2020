@@ -1,0 +1,3 @@
+g++ source.cpp -o exe
+
+Here we are having the function in function.cpp but we include it in the source file but not in the compilation thats how we execute the program

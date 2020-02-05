@@ -1,0 +1,3 @@
+g++ source.cpp function.cpp -o exe
+
+Here we are not including the function.cpp inside the source.cpp we are just using extern keyword for the function as a declaration note this function.cpp should be in the same folder.

@@ -1,0 +1,6 @@
+g++ source.cpp header.hpp function.cpp -o exe
+		OR
+g++ source.cpp function.cpp -o exe
+
+Here we are define the function in the function.cpp, the declaration is provided in the header.hpp and only header is included in the source.cpp
+
