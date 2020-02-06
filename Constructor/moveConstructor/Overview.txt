@@ -1,0 +1,7 @@
+move constructor
+
+	It's a c++11 feature
+	It has more precedence over copy constructor when return object
+	During pass by value copy constructor is called
+	To invoke move constructor use std::move(object) during initialization
+		i.e. Test t1 = std::move(existing_object)
