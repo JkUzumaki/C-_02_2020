@@ -1,0 +1,6 @@
+g++ source.cpp -o exe -fno-elide-constructors
+
+//Why -fno-elide-constructors
+	To avoid the optimization due to the copy constructors
+
+	Copy constructors are invoked when the object are returned by value	

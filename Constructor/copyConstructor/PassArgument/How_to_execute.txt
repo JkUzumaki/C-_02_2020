@@ -1,0 +1,3 @@
+g++ source.cpp -o cpy
+
+Here we are passing an object of class as a argument to a function and checking the calling of the copy constructor
