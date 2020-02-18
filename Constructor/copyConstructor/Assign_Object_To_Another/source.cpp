@@ -2,8 +2,7 @@
 
 class Test{
 public:
-	Test()
-	{}
+	Test(){}
 	~Test(){}
 	Test(const Test &ref){
 		std::cout << "CpyConstructor\n";

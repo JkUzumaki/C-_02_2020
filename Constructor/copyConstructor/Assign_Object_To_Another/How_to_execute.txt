@@ -3,3 +3,5 @@ g++ source.cpp -o cpy
 	Here we are assigning a object to another while creating it 
 	i.e, Class_name new_obj = old_obj;
 	During that scenario the copy constructor is called	
+
+	When we don't use const in copy constructor, no error is throwing. Its working fine. 

@@ -6,7 +6,7 @@ public:
 	{}
 	~Test(){}
 	Test(const Test &ref){
-		std::cout << "CpyConstructor\n";
+		std::cout << "Cpy Constructor\n";
 	}
 };
 
