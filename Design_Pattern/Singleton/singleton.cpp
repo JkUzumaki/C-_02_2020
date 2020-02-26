@@ -27,6 +27,9 @@ ston* ston::ptr = NULL;
 int main(){
 	ston* fptr = ston::getInstance();
 	ston* fptr1 = fptr;
+	std::cout << "fptr1 " << fptr1 << std::endl;
+	std::cout << "fptr " << fptr << std::endl;
+
 	int flag = 1;
 	while(flag == 1){
 		std::cout << "Do you want to write in file press 1\n";
